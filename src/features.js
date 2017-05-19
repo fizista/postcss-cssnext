@@ -7,7 +7,7 @@ export default {
    * ******************
    */
    // https://npmjs.com/package/postcss-custom-properties
-  customProperties: (options) => require("postcss-custom-properties")(options),
+  customProperties: (options) => require('postcss-css-variables')(options),
 
   // https://npmjs.com/package/postcss-apply
   applyRule: (options) => require("postcss-apply")(options),
